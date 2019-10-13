@@ -4,9 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Customer Details</title>
 </head>
 <body>
-${customer }
+<h2>Customer added successfully</h2>
+<h1>Details</h1>
+<br>
+Name: ${customer.name } <br>
+Age: ${customer.age } <br>
+Tech: ${customer.tech }
 </body>
 </html>
